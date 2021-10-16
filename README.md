@@ -48,10 +48,8 @@ I've included 4 screenshots in the `/screenshots` folder: mobile, tablet, deskto
 
 ### Links
 
-I'll update these links once I've submitted my solution. 
-
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/mobilefirst-using-vanilla-js-flexbox-bem-and-css-grid-Gp55YDxNE)
+- [Live Site URL](https://victor-nyagudi.github.io/interactive-pricing-component/)
 
 ## My process
 
