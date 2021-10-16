@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+</head>
+<body>
+
+  <main class="pricing container">
+    <div class="pricing__component desktop-container">
+      <div class="pricing__header container">
+        <h1 class="pricing__title">
+          Simple, traffic-based pricing
+        </h1>
+
+        <p class="pricing__message">
+          Sign-up for our 30-day free trial. No credit card required.
+        </p>
+      </div>
+      
+      <div class="pricing__main">
+        <section class="pricing__info container">
+          <h2 class="screen-reader-only">Pricing Info</h2>
+
+          <p class="page-views" aria-live="assertive">
+            100k pageviews
+          </p>
+          
+          <div class="pricing__slider-container">
+            <form class="pricing__form" id="pricingForm">
+              <input 
+                type="range" 
+                id="pricingSlider" 
+                name="price" 
+                class="pricing__slider" 
+                min="1" 
+                max="5"
+                value="3" 
+                aria-label="pricing slider"
+              >
+            </form>
+          </div>
+
+          <div class="payment-info">
+            <output form="pricingForm" id="payment" name="payment" class="payment" aria-live="assertive">
+              $16.00
+            </output>
+            
+            <p class="timeframe">
+              / month
+            </p>
+          </div>
+        </section>
+        
+        
+        <section class="pricing__timeframe container">
+          <h2 class="screen-reader-only">Pricing Timeframe</h2>
+
+          <p class="pricing__monthly">
+            Monthly Billing
+          </p>
+          
+          <input 
+              type="range" 
+              form="pricingForm" 
+              id="timeframeSlider" 
+              name="timeframe" 
+              class="pricing__timeframe-slider" 
+              min="0"
+              max="1"
+              step="1"
+              value="0"
+              aria-label="timeframe slider"
+          >
+          
+          <p class="pricing__yearly">
+            Yearly Billing
+            <span class="special-offer">
+              -25% <span class="discount">discount</span>
+            </span>
+          </p>
+        </section>
+
+        <hr>
+        
+        <section class="pricing__enroll container">
+          <h2 class="screen-reader-only">Pricing Guarantees and Call to Action</h2>
+          
+          <ul class="pricing__guarantees">
+            <li class="pricing__guarantee">
+              Unlimited websites
+            </li>
+            
+            <li class="pricing__guarantee">
+              100% data ownership
+            </li>
+            
+            <li class="pricing__guarantee">
+              Email reports 
+            </li>
+          </ul>
+          
+          <div class="pricing__cta-container container">
+            <button type="button" class="pricing__cta">Start my trial</button>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main> 
+
+  <script src="main.js"></script>
+</body>
+</html>
