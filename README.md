@@ -100,8 +100,10 @@ the default functionality as well) leaving you with a completely blank slate.
 After getting feedback about it, I finally implemented a screen reader only heading, so if you see this @pikamart from
 FrontendMentor, this one's for you :)
 
-I read up on it and now see the value it provides for anyone using a screen reader. It also makes it possible to divide
-the content into individual `<section>` tags and still provide an `<h2>` that way, those people can navigate the page much more easily. 
+I read up on it and now see the value it provides for anyone using a screen reader. It also makes it possible to divide the content into individual `<section>` tags and still provide an `<h2>` that way, those people can navigate the page much more easily. 
+
+Side note: I took some time to learn about pseudo elements, which I didn't fully understand, and used them in
+this challenge. Glad I know more about them now. 
 
 Finally, I learned how to use JavaScript to update the slider's background. I found rather creative, and hope to practice
 more with this kind of thing.
