@@ -42,7 +42,7 @@ If the visitor switches the toggle to yearly billing, a 25% discount should be a
 
 ### Screenshot
 
-![](./screenshots/interactive-pricing-component-fullscreen.png)
+![](./dist/screenshots/interactive-pricing-component-fullscreen.png)
 
 I've included 4 screenshots in the `/screenshots` folder: mobile, tablet, desktop, and fullscreen.
 
@@ -61,7 +61,7 @@ The CSS for the mobile version came next, and then I expanded from there up to d
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- SCSS
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
@@ -107,7 +107,6 @@ this challenge. Glad I know more about them now.
 
 Finally, I learned how to use JavaScript to update the slider's background. I found rather creative, and hope to practice
 more with this kind of thing.
-
 
 ### Continued development
 
